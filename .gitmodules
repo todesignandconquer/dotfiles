@@ -16,3 +16,66 @@
 [submodule "dotfiles/.vim/bundle/vim-fugitive"]
 	path = dotfiles/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "dotfiles/.vim/bundle/Command-T"]
+	path = dotfiles/.vim/bundle/Command-T
+	url = https://github.com/wincent/Command-T.git
+[submodule "dotfiles/.vim/bundle/tabular"]
+	path = dotfiles/.vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "dotfiles/.vim/bundle/zendcoding-vim.git"]
+	path = dotfiles/.vim/bundle/zendcoding-vim.git
+	url = https://github.com/mattn/zencoding-vim.git
+[submodule "dotfiles/.vim/bundle/vim-surround"]
+	path = dotfiles/.vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "dotfiles/.vim/bundle/vim-ruby"]
+	path = dotfiles/.vim/bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "dotfiles/.vim/bundle/vim-speeddating.git"]
+	path = dotfiles/.vim/bundle/vim-speeddating.git
+	url = https://github.com/tpope/vim-speeddating.git
+[submodule "dotfiles/.vim/bundle/vim-ragtag.git"]
+	path = dotfiles/.vim/bundle/vim-ragtag.git
+	url = https://github.com/tpope/vim-ragtag.git
+[submodule "dotfiles/.vim/bundle/matchit"]
+	path = dotfiles/.vim/bundle/matchit
+	url = https://github.com/vim-scripts/matchit.zip.git
+[submodule "dotfiles/.vim/bundle/vim-markdown"]
+	path = dotfiles/.vim/bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "dotfiles/.vim/bundle/vim-javascript"]
+	path = dotfiles/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "dotfiles/.vim/bundle/tcomment_vim"]
+	path = dotfiles/.vim/bundle/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim.git
+[submodule "dotfiles/.vim/bundle/syntastic"]
+	path = dotfiles/.vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "dotfiles/.vim/bundle/vim-rails"]
+	path = dotfiles/.vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "dotfiles/.vim/bundle/jQuery"]
+	path = dotfiles/.vim/bundle/jQuery
+	url = https://github.com/vim-scripts/jQuery.git
+[submodule "dotfiles/.vim/bundle/vim-haml"]
+	path = dotfiles/.vim/bundle/vim-haml
+	url = https://github.com/tpope/vim-haml.git
+[submodule "dotfiles/.vim/bundle/vim-cucumber"]
+	path = dotfiles/.vim/bundle/vim-cucumber
+	url = https://github.com/tpope/vim-cucumber.git
+[submodule "dotfiles/.vim/bundle/PickAColor"]
+	path = dotfiles/.vim/bundle/PickAColor
+	url = https://github.com/vim-scripts/PickAColor.vim.git
+[submodule "dotfiles/.vim/bundle/vim-coffee-script"]
+	path = dotfiles/.vim/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "dotfiles/.vim/bundle/UltiSnips"]
+	path = dotfiles/.vim/bundle/UltiSnips
+	url = https://github.com/vim-scripts/UltiSnips.git
+[submodule "dotfiles/.vim/bundle/vim-endwise"]
+	path = dotfiles/.vim/bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "dotfiles/.vim/bundle/vim-css-color"]
+	path = dotfiles/.vim/bundle/vim-css-color
+	url = https://github.com/ap/vim-css-color.git
