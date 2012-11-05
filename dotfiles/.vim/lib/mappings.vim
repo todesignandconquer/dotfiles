@@ -13,7 +13,7 @@ map Q gq
 inoremap <C-U> <C-G>u<C-U>
 
 " Replace escape with jj when in insert mode
-inoremap jj <esc>
+imap jj <esc>
 
 " Dn insert mode
 " imap on't require shift for entering commands
@@ -23,10 +23,10 @@ noremap ; :
 nnoremap <esc> :noh<return><esc>
 
 " Remove arrow key functionality
-noremap <Down> <c-d>
-noremap <Up> <c-u>
-noremap <Left> <nop>
-noremap <Right> <nop>
+nmap <Down> <c-d>
+nmap <Up> <c-u>
+nmap <Left> <nop>
+nmap <Right> <nop>
 
 " Move based on visual lines and not wrapped content
 nnoremap j gj
@@ -45,16 +45,16 @@ map <leader>w <C-w>v<C-w>l
 nnoremap <leader>m :w <return>
 
 " Death to whitespace
-nnoremap <F5> :%s/\s\+$//<return>
+nmap <F5> :%s/\s\+$//<return>
 
 "Map the arrow keys to page up and down in normal mode
 set pastetoggle=<F2>
 
 " Move lines of text around
-nnoremap <C-j> :m .+1<CR>==
-nnoremap <C-k> :m .-2<CR>==
-inoremap <C-j> <Esc>:m .+1<CR>==gi
-inoremap <C-k> <Esc>:m .-2<CR>==gi
-vnoremap <C-j> :m '>+1<CR>gv=gv
-vnoremap <C-k> :m '<-2<CR>gv=gv"
+nmap <C-j> :m .+1<CR>==
+nmap <C-k> :m .-2<CR>==
+imap <C-j> <Esc>:m .+1<CR>==gi
+imap <C-k> <Esc>:m .-2<CR>==gi
+vmap <C-j> :m '>+1<CR>gv=gv
+vmap <C-k> :m '<-2<CR>gv=gv"
  

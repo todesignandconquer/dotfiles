@@ -12,7 +12,6 @@ filetype plugin indent on       " Enable file type detection.
 syntax on                       " Enable Syntax
 
 "===  Source Lib Files  =======================================================
-for scr in split(glob('~/.vim/lib/**'), '')
-  exec "source " . scr
+for file in split(glob('~/.vim/lib/*.vim'), '\n')
+  exe 'source' file
 endfor
-
