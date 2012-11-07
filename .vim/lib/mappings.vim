@@ -51,10 +51,10 @@ nmap <F5> :%s/\s\+$//<return>
 set pastetoggle=<F2>
 
 " Move lines of text around
-nmap <C-j> :m .+1<CR>==
-nmap <C-k> :m .-2<CR>==
-imap <C-j> <Esc>:m .+1<CR>==gi
-imap <C-k> <Esc>:m .-2<CR>==gi
-vmap <C-j> :m '>+1<CR>gv=gv
-vmap <C-k> :m '<-2<CR>gv=gv"
+nmap <S-j> :m .+1<CR>==
+nmap <S-k> :m .-2<CR>==
+imap <S-j> <Esc>:m .+1<CR>==gi
+imap <S-k> <Esc>:m .-2<CR>==gi
+vmap <S-j> :m '>+1<CR>gv=gv
+vmap <S-k> :m '<-2<CR>gv=gv"
  
