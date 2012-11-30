@@ -50,9 +50,12 @@ nmap <F5> :%s/\s\+$//<return>
 "Map the arrow keys to page up and down in normal mode
 set pastetoggle=<F2>
 
+" Map ctrl j to join lines
+nmap <C-j> :join<return>
+
 " Move lines of text around
-nmap <C-j> :m .+1<CR>==
-nmap <C-k> :m .-2<CR>==
-vmap <C-j> :m '>+1<CR>gv=gv
-vmap <C-k> :m '<-2<CR>gv=gv"
+nmap <S-j> :m .+1<CR>==
+nmap <S-k> :m .-2<CR>==
+vmap <S-j> :m '>+1<CR>gv=gv
+vmap <S-k> :m '<-2<CR>gv=gv"
  
