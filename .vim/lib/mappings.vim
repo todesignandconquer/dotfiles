@@ -51,11 +51,11 @@ nmap <F5> :%s/\s\+$//<return>
 set pastetoggle=<F2>
 
 " Map ctrl j to join lines
-nmap <D-j> :join<return>
+map <leader>j :join<return>
 
 " Move lines of text around
 nmap <S-j> :m .+1<CR>==
 nmap <S-k> :m .-2<CR>==
 vmap <S-j> :m '>+1<CR>gv=gv
 vmap <S-k> :m '<-2<CR>gv=gv"
- 
+
