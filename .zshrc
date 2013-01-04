@@ -39,6 +39,9 @@ export PATH=/Users/Chomper/.rvm/gems/ruby-1.9.3-p286/bin:/Users/Chomper/.rvm/gem
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
 
 #ALIASES
+
+alias trun='bundle exec torquebox run -J "\-Xmx2048m"'
+
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
