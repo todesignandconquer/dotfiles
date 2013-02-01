@@ -33,10 +33,11 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-export PATH=/Users/Eli/.rvm/gems/ruby-1.9.3-p286/bin:/Users/Eli/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/Eli/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/Eli/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+# OLD
+export PATH=/Users/eli/.rvm/rubies/ruby-1.9.3-p374/bin/ruby:/Users/eli/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/eli/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/eli/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+#
+source $HOME/.rvm/scripts/rvm
 
 #ALIASES
 
