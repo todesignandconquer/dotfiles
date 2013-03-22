@@ -34,10 +34,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # OLD
-export PATH=/Users/eli/.rvm/rubies/ruby-1.9.3-p374/bin/ruby:/Users/eli/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/eli/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/eli/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
-#
-source $HOME/.rvm/scripts/rvm
+export PATH=$PATH:/Users/eli/.rvm/rubies/ruby-1.9.3-p374/bin/ruby:/Users/eli/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/eli/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/eli/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin
 
 #ALIASES
 
@@ -85,8 +82,8 @@ alias gci='git ci'
 alias grb='git rb'
 alias gps='git ps'
 alias ga.='git add -A'
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias v="/Applications/MacVim.app/Contents/MacOS/Vim"
+alias v="/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/MacOS/Vim"
+alias v="/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/MacOS/Vim"
 alias mate='open -a TextMate.app'
 alias sub='open -a "Sublime Text 2"'
 alias mysql="/usr/local/mysql/bin/mysql"
@@ -138,3 +135,9 @@ alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 alias ru="bundle exec rackup -p3000"
+
+
+eval "$(rbenv init -)"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
