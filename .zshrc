@@ -33,9 +33,6 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# OLD
-# export PATH=$PATH:/Users/eli/.rvm/rubies/ruby-1.9.3-p374/bin/ruby:/Users/eli/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/eli/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/eli/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin
-
 MYSQL=/usr/local/mysql/bin
 export PATH=$PATH:$MYSQL
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
