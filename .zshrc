@@ -101,6 +101,7 @@ alias gpsh="git push heroku master"
 alias mirb="/usr/local/bin/macirb"
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias stage="gps;git push stage stage:master"
+alias be='bundle exec'
 #Compile Rails Assets
 alias precompile='RAILS_ENV=production bundle exec rake assets:precompile'
 
