@@ -36,7 +36,8 @@ source $ZSH/oh-my-zsh.sh
 MYSQL=/usr/local/mysql/bin
 export PATH=$PATH:$MYSQL
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
-
+# for tmux: export 256color
+[ -n "$TMUX" ] && export TERM=screen-256color
 #ALIASES
 
 alias trun='bundle exec torquebox run -J "\-Xmx2048m"'
@@ -137,5 +138,6 @@ alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 alias ru="bundle exec rackup -p3000"
+
 
 eval "$(rbenv init -)"
