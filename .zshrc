@@ -37,7 +37,8 @@ MYSQL=/usr/local/mysql/bin
 export PATH=$PATH:$MYSQL
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
 # for tmux: export 256color
-[ -n "$TMUX" ] && export TERM=screen-256color
+export TERM=xterm-256color
+
 #ALIASES
 
 alias trun='bundle exec torquebox run -J "\-Xmx2048m"'
