@@ -38,6 +38,7 @@ export PATH=$PATH:$MYSQL
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
 # for tmux: export 256color
 export TERM=xterm-256color
+export DIBS_LOCAL="$HOME/Projects/Nike/RSVP/dw-dibs"
 
 #ALIASES
 
