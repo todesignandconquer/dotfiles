@@ -10,7 +10,14 @@ fi
 
 # Customize to your needs...
 
+if [ -d "$HOME/.rbenv" ] ; then
+  export PATH="$PATH:$HOME/.rbenv/bin"
+fi
 
+# Load rbenv if available
+if which rbenv > /dev/null; then
+  eval "$(rbenv init -)"
+fi
 
 #ALIASES
 # Easier navigation: .., ..., ~ and -
