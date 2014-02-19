@@ -85,3 +85,6 @@
 [submodule ".vim/bundle/vim-rake"]
 	path = .vim/bundle/vim-rake
 	url = https://github.com/tpope/vim-rake.git
+[submodule ".vim/bundle/vim-django"]
+	path = .vim/bundle/vim-django
+	url = https://github.com/cwood/vim-django.git
