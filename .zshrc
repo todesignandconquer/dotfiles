@@ -19,6 +19,10 @@ if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
 
+if [ -d "/usr/local/flex" ] ; then
+  export PATH="$PATH:/usr/local/flex/bin"
+fi
+
 #ALIASES
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
@@ -115,3 +119,4 @@ alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 alias ru="bundle exec rackup -p3000"
+alias be="bundle exec"

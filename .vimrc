@@ -15,3 +15,5 @@ syntax on                       " Enable Syntax
 for file in split(glob('~/.vim/lib/*.vim'), '\n')
   exe 'source' file
 endfor
+
+au Bufread,BufNewFile *.as set filetype=actionscript
