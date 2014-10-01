@@ -23,6 +23,8 @@ if [ -d "/usr/local/flex" ] ; then
   export PATH="$PATH:/usr/local/flex/bin"
 fi
 
+export EDITOR='vim'
+
 #ALIASES
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
