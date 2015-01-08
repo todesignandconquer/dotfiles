@@ -17,3 +17,5 @@ for file in split(glob('~/.vim/lib/*.vim'), '\n')
 endfor
 
 au Bufread,BufNewFile *.as set filetype=actionscript
+
+set clipboard=unnamed
