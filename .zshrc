@@ -122,3 +122,11 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 alias ru="bundle exec rackup -p3000"
 alias be="bundle exec"
+
+export ZSH=$HOME/.oh-my-zsh
+
+ZSH_THEME="robbyrussell"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
