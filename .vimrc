@@ -19,3 +19,5 @@ endfor
 au Bufread,BufNewFile *.as set filetype=actionscript
 
 set clipboard=unnamed
+
+let g:syntastic_filetype_map = { 'handlebars.html': 'handlebars' }

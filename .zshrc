@@ -32,9 +32,6 @@ alias ...="cd ../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
-# List all files colorized in long format, including dot files
-alias ll="ls -Gla"
-
 # List only directories
 alias lsd='ls -l | grep "^d"'
 
@@ -124,6 +121,9 @@ alias ru="bundle exec rackup -p3000"
 alias be="bundle exec"
 
 export ZSH=$HOME/.oh-my-zsh
+
+# List all files colorized in long format, including dot files
+alias ll="ls -Gla"
 
 ZSH_THEME="robbyrussell"
 
