@@ -5,10 +5,15 @@
 #
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
- source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+  "$Z{DOTDIR:-$HOME}/.zprezto/init.zsh"
+  rt
 fi
 
 # Customize to your needs...
+
+if [ -f "$HOME/lanetix.env" ] ; then
+  source "$HOME/lanetix.env"
+fi
 
 if [ -d "$HOME/.rbenv" ] ; then
   export PATH="$PATH:$HOME/.rbenv/bin"
@@ -132,4 +137,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 export NVM_DIR=~/.nvm
-  source $(brew --prefix nvm)/nvm.sh
+source $(brew --prefix nvm)/nvm.sh
