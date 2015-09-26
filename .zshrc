@@ -5,8 +5,7 @@
 #
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  "$Z{DOTDIR:-$HOME}/.zprezto/init.zsh"
-  rt
+  source "${DOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
 # Customize to your needs...
