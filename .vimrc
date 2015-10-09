@@ -20,6 +20,6 @@ au Bufread,BufNewFile *.as set filetype=actionscript
 
 set clipboard=unnamed
 
-let g:syntastic_filetype_map = { 'handlebars.html': 'handlebars' }
+let g:syntastic_javascript_checkers = ['standard']
 
 autocmd BufNewFile,BufReadPost *.styl set filetype=stylus
