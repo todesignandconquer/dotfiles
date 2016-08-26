@@ -14,6 +14,10 @@ if [ -f "$HOME/lanetix.env" ] ; then
   source "$HOME/lanetix.env"
 fi
 
+if [ -f "$HOME/.env" ] ; then
+  source "$HOME/.env"
+fi
+
 if [ -d "$HOME/.rbenv" ] ; then
   export PATH="$PATH:$HOME/.rbenv/bin"
 fi
@@ -135,6 +139,11 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-export NVM_DIR=~/.nvm
+export NVM_DIR="$HOME/.nvm"
 source $(brew --prefix nvm)/nvm.sh
 export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
+
+bindkey '[C' forward-word
+bindkey '[D' backward-word
+
+source ~/env/.lxprofile
