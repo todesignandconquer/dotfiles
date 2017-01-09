@@ -17,5 +17,5 @@ for file in split(glob('~/.vim/lib/*.vim'), '\n')
   exe 'source' file
 endfor
 
-au Bufread,BufNewFile *.as set filetype=actionscript
 autocmd BufNewFile,BufReadPost *.styl set filetype=stylus
+autocmd BufRead /tmp/psql.edit.* set syntax=sql
