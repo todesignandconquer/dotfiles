@@ -4,9 +4,6 @@
 [submodule ".vim/bundle/Command-T"]
 	path = .vim/bundle/Command-T
 	url = https://github.com/wincent/Command-T.git
-[submodule ".vim/bundle/UltiSnips"]
-	path = .vim/bundle/UltiSnips
-	url = https://github.com/vim-scripts/UltiSnips.git
 [submodule ".vim/bundle/ack.vim"]
 	path = .vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
@@ -25,9 +22,6 @@
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule ".vim/bundle/vim-django"]
-	path = .vim/bundle/vim-django
-	url = https://github.com/cwood/vim-django.git
 [submodule ".vim/bundle/vim-jade"]
 	path = .vim/bundle/vim-jade
 	url = git@github.com:digitaltoad/vim-jade.git
@@ -43,3 +37,6 @@
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule ".vim/bundle/django-plus"]
+	path = .vim/bundle/django-plus
+	url = git@github.com:tweekmonster/django-plus.vim.git
