@@ -1,5 +1,5 @@
-if [ -f "$HOME/lanetix.env" ] ; then
-  source "$HOME/lanetix.env"
+if [ -f "$HOME/env/.lxprofile" ] ; then
+  source "$HOME/env/.lxprofile"
 fi
 
 if [ -f "$HOME/.env" ] ; then
