@@ -34,9 +34,6 @@ let &tabstop=s:tab_num
 set expandtab              " use spaces
 set smarttab               " figure correct spaces to inject per tab
 
-"===  Custom colorscheme  =====================================================
-color molokai
-set t_Co=256
 "===  zsh ftw  ================================================================
 set shell=zsh
 

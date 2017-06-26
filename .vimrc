@@ -3,6 +3,12 @@
 "==============================================================================
 set nocompatible                " No vi compatability
 set clipboard=unnamed
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+
+"===  Custom colorscheme  =====================================================
+set termguicolors
+colorscheme quantum
 
 filetype off
 " Pathogen Setup
