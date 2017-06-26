@@ -5,8 +5,10 @@ set nocompatible                " No vi compatability
 set clipboard=unnamed
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+let g:quantum_black=1
 
 "===  Custom colorscheme  =====================================================
+set background=dark
 set termguicolors
 colorscheme quantum
 
