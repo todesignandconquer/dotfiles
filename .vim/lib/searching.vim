@@ -12,4 +12,3 @@ set gdefault   " All matches in a line are substituted
 " matchit mapping
 nmap <tab> %
 vmap <tab> %
-
