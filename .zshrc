@@ -48,7 +48,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 export NVM_DIR="$HOME/.nvm"
-source $(brew --prefix nvm)/nvm.sh
+source $NVM_DIR/nvm.sh
 
 bindkey '[C' forward-word
 bindkey '[D' backward-word
