@@ -34,6 +34,8 @@ let &tabstop=s:tab_num
 set expandtab              " use spaces
 set smarttab               " figure correct spaces to inject per tab
 
+au FileType python setl sw=2 sts=2 et
+
 "===  zsh ftw  ================================================================
 set shell=zsh
 
