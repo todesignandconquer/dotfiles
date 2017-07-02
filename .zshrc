@@ -46,9 +46,13 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.tmuxinator.zsh
 
 export NVM_DIR="$HOME/.nvm"
 source $(brew --prefix nvm)/nvm.sh
+
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
 
 bindkey '[C' forward-word
 bindkey '[D' backward-word

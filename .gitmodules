@@ -37,3 +37,6 @@
 [submodule ".vim/bundle/django-plus"]
 	path = .vim/bundle/django-plus
 	url = git@github.com:tweekmonster/django-plus.vim.git
+[submodule ".vim/bundle/vim-jsx"]
+	path = .vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
