@@ -49,7 +49,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.tmuxinator.zsh
 
 export NVM_DIR="$HOME/.nvm"
-source $(brew --prefix nvm)/nvm.sh
+source $NVM_DIR/nvm.sh
 
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
