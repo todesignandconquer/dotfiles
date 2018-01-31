@@ -1,7 +1,3 @@
-if [ -f "$HOME/env/.lxprofile" ] ; then
-  source "$HOME/env/.lxprofile"
-fi
-
 if [ -f "$HOME/.env" ] ; then
   source "$HOME/.env"
 fi
@@ -56,5 +52,3 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 
 bindkey '[C' forward-word
 bindkey '[D' backward-word
-
-source ~/env/.lxprofile
