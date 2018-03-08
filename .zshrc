@@ -24,8 +24,6 @@ alias gci='git ci'
 alias grb='git rb'
 alias gps='git ps'
 alias ga.='git add -A'
-alias vim='/usr/local/bin/vim'
-alias v="/usr/local/bin/vim"
 alias ls="ls -G"
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
@@ -44,11 +42,14 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.tmuxinator.zsh
 
-export NVM_DIR="$HOME/.nvm"
-source $NVM_DIR/nvm.sh
+export NVM_DIR="/usr/local/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
+
+if [ -f "$HOME/.rbenv" ] ; then
+  eval "$(rbenv init -)"
+fi
 
 bindkey '[C' forward-word
 bindkey '[D' backward-word
