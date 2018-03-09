@@ -50,5 +50,8 @@ source $NVM_DIR/nvm.sh
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 bindkey '[C' forward-word
 bindkey '[D' backward-word
