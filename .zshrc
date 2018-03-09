@@ -44,14 +44,13 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.tmuxinator.zsh
 
-if [ -f "$HOME/.nvm" ] ; then
-  export NVM_DIR="$HOME/.nvm"
-  source $NVM_DIR/nvm.sh
-fi
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+export PATH="$HOME/.rbenv/bin:$PATH"
 
 if [ -x "$(command -v rbenv)" ] ; then
   eval "$(rbenv init -)"
-  export PATH="$HOME/.rbenv/bin:$PATH"
 fi
 
 if [ -x "$(command -v pyenv)" ] ; then
