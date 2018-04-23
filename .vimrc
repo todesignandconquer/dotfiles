@@ -27,6 +27,7 @@ for file in split(glob('~/.vim/lib/*.vim'), '\n')
 endfor
 
 autocmd BufNewFile,BufReadPost *.styl set filetype=stylus
-autocmd BufNewFile,BufReadPost *.ts set filetype=javascript
+autocmd BufNewFile,BufReadPost *.ts set filetype=typescript
 autocmd BufRead /tmp/psql.edit.* set syntax=sql
 autocmd FileType javascript JsPreTmpl javascript
+autocmd FileType typescript JsPreTmpl typescript
