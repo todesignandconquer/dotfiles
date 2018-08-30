@@ -48,6 +48,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/miniconda3/bin:$PATH"
 
 if [ -x "$(command -v rbenv)" ] ; then
   eval "$(rbenv init -)"
@@ -56,6 +57,10 @@ fi
 if [ -x "$(command -v pyenv)" ] ; then
   eval "$(pyenv init -)"
   eval "$(pyenv virtualenv-init -)"
+fi
+
+if [ -x "$(command -v direnv)" ] ; then
+  eval "$(direnv hook zsh)"
 fi
 
 bindkey '[C' forward-word
