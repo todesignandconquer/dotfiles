@@ -54,6 +54,7 @@ name = 'colorscheme'
 
 [[layers]]
 name = 'lang#javascript'
+enable_flow_syntax = false
 
 [[layers]]
 name = 'lang#python'
