@@ -8,6 +8,7 @@ function! init#after() abort
   set gdefault   " All matches in a line are substituted
 
   let g:jsx_ext_required = 0
+  let g:javascript_plugin_flow = 1
 
   if exists('$TMUX')
     let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
