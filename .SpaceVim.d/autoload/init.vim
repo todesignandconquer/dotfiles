@@ -6,9 +6,12 @@ function! init#after() abort
   set showmatch  " move to search match
   set nohlsearch " Don't highlight the search after I am done
   set gdefault   " All matches in a line are substituted
+  set encoding=UTF-8
 
   let g:jsx_ext_required = 0
   let g:javascript_plugin_flow = 1
+  let g:webdevicons_enable = 1
+  let g:webdevicons_enable_vimfiler = 1
 
   if exists('$TMUX')
     let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"

@@ -27,6 +27,10 @@
   bootstrap_after = 'init#after'
 
 [[custom_plugins]]
+name = 'ryanoasis/vim-devicons'
+merged = 0
+
+[[custom_plugins]]
 name = 'pangloss/vim-javascript'
 merged = 0
 
