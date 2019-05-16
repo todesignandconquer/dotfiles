@@ -27,6 +27,4 @@ function! init#after() abort
   inoremap <S-j> <Esc>:m+<CR>
   nnoremap / /\v
   vnoremap / /\v
-
-  autocmd FileType python setlocal ts=8 sw=4 sts=4 expandtab
 endfunction
