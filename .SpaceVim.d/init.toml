@@ -65,3 +65,6 @@ name = 'lang#python'
 
 [[layers]]
 name = 'lang#php'
+
+[[layers]]
+name = 'tmux'
