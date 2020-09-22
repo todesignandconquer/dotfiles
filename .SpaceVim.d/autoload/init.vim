@@ -22,10 +22,13 @@ function! init#after() abort
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
   endif
 
-  nnoremap <S-k> :m-2<CR>
-  nnoremap <S-j> :m+<CR>
-  inoremap <S-k> <Esc>:m-2<CR>
-  inoremap <S-j> <Esc>:m+<CR>
+  nnoremap ∆ :m .+1<CR>==
+  nnoremap ˚ :m .-2<CR>==
+  inoremap ∆ <Esc>:m .+1<CR>==gi
+  inoremap ˚ <Esc>:m .-2<CR>==gi
+  vnoremap ∆ :m '>+1<CR>gv=gv
+  vnoremap ˚ :m '<-2<CR>gv=gv
+
   nnoremap / /\v
   vnoremap / /\v
 endfunction
