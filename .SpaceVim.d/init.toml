@@ -25,6 +25,7 @@
   enable_statusline_mode = false
   filetree_direction = 'left'
   bootstrap_after = 'init#after'
+  filemanager = 'nerdtree'
 
 [[custom_plugins]]
 name = 'ryanoasis/vim-devicons'
