@@ -69,3 +69,6 @@ name = 'lang#php'
 
 [[layers]]
 name = 'tmux'
+
+[[layers]]
+name = 'fzf'

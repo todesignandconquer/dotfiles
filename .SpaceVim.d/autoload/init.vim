@@ -15,7 +15,6 @@ function! init#after() abort
   let g:syntastic_python_checkers = ['flake8', 'pylint', 'python']
   let g:spacevim_enable_statusline_bfpath = 1
 
-
   if exists('$TMUX')
     let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
     let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
