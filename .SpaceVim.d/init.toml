@@ -26,6 +26,9 @@
   filetree_direction = 'left'
   bootstrap_after = 'init#after'
   filemanager = 'nerdtree'
+  autocomplete_method = 'completor'
+  auto_completion_return_key_behavior = 'complete'
+  auto_completion_tab_key_behavior = 'smart'
 
 [[custom_plugins]]
 name = 'ryanoasis/vim-devicons'
@@ -50,8 +53,6 @@ merged = 0
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
-auto-completion-return-key-behavior = 'complete'
-auto-completion-tab-key-behavior = 'smart'
 
 [[layers]]
 name = 'shell'

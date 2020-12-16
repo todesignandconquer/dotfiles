@@ -48,6 +48,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH="/usr/local/opt/curl/bin:$PATH"
 
 if [ -x "$(command -v rbenv)" ] ; then
@@ -62,6 +63,14 @@ fi
 if [ -x "$(command -v direnv)" ] ; then
   eval "$(direnv hook zsh)"
 fi
+
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
+
 
 bindkey '[C' forward-word
 bindkey '[D' backward-word
