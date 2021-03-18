@@ -9,10 +9,8 @@ function! init#after() abort
   set encoding=UTF-8
 
   let g:jsx_ext_required = 0
-  let g:javascript_plugin_flow = 1
   let g:webdevicons_enable = 1
   let g:webdevicons_enable_vimfiler = 1
-  let g:syntastic_python_checkers = ['flake8', 'pylint', 'python']
 
   if exists('$TMUX')
     let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"

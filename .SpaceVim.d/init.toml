@@ -29,6 +29,7 @@
   autocomplete_method = 'completor'
   auto_completion_return_key_behavior = 'complete'
   auto_completion_tab_key_behavior = 'smart'
+  lint_engine = 'ale'
 
 [[custom_plugins]]
 name = 'ryanoasis/vim-devicons'
@@ -73,3 +74,7 @@ name = 'tmux'
 
 [[layers]]
 name = 'fzf'
+
+[[layers]]
+name = 'checkers'
+lint_on_the_fly = true
